@@ -1,0 +1,53 @@
+\defpersianfont\nast[Path={./font/}, Extension=.ttf, Scale=1.8]{IranNastaliq}
+
+\begin{titlepage}
+	\thispagestyle{empty} 
+	
+	\AddToShipoutPictureBG*{
+		\begin{tikzpicture}[remember picture, overlay]
+			\draw[line width=2pt, color=codeblue]
+			([shift={(1cm,-1cm)}]current page.north west)
+			rectangle
+			([shift={(-1cm,1cm)}]current page.south east);
+		\end{tikzpicture}
+	}
+	
+	\begin{center}
+		\vspace*{1cm}
+		\includegraphics[width=4.5cm]{img/Logo.png}
+		\vspace{0.5cm}
+		
+		{\textcolor{codeblue}{\nast دانشگاه صنعتی خواجه نصیرالدین طوسی}}\\[0.4cm]
+		{\Large\textbf{دانشکده مهندسی برق}}
+		
+		\vfill
+		
+		{\Huge\textbf{گزارش پروژه امتیازی نرم‌افزار \lr{ADS}}}\\[0.8cm]
+		{\huge\textbf{درس میدان‌ها و امواج}}
+		
+		\vfill
+		
+		{\large
+			\textbf{استاد درس:}\\[0.2cm]
+			ـــــ
+		}
+		
+		\vspace{1cm}
+		
+		{\Large
+			\renewcommand{\arraystretch}{1.5}
+			\begin{tabular}{|c|c|}
+				\hline
+				\textbf{نام و نام خانوادگی} & \textbf{شماره دانشجویی} \\
+				\hline
+				----- & ------ \\
+				\hline
+
+			\end{tabular}
+		}
+		
+		\vfill
+		
+		{\large\textbf{تابستان ۱۴۰۵}}
+	\end{center}
+\end{titlepage}
