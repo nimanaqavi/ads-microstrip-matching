@@ -73,8 +73,8 @@ The project follows a five-step design flow. Each step moves the design closer t
 
 | Result | Description |
 | :---- | :---- |
-| ![50 Ω line schematic](Images/validation_shematic.pdf) | Schematic of the 50 Ω microstrip line on the RT5880 substrate |
-| ![50 Ω line S11](Images/validation.pdf) | S11 result of the 50 Ω line validation test |
+| ![50 Ω line schematic](Images/validation_shematic.png) | Schematic of the 50 Ω microstrip line on the RT5880 substrate |
+| ![50 Ω line S11](Images/validation.png) | S11 result of the 50 Ω line validation test |
 
 ### Smith Chart Synthesis
 
@@ -87,21 +87,21 @@ The project follows a five-step design flow. Each step moves the design closer t
 
 | Result | Description |
 | :---- | :---- |
-| ![Ideal schematic](Images/test.pdf) | Ideal transmission-line schematic (Smith Chart SmartComponent blocks) |
-| ![Ideal S-parameters](Images/test_chematic.pdf) | S11/S33 result and Smith chart of the ideal transmission-line design |
+| ![Ideal schematic](Images/test.png) | Ideal transmission-line schematic (Smith Chart SmartComponent blocks) |
+| ![Ideal S-parameters](Images/test_chematic.png) | S11/S33 result and Smith chart of the ideal transmission-line design |
 
 ### Microstrip Realization (MLIN/MLOC)
 
 | Result | Description |
 | :---- | :---- |
-| ![Microstrip schematic](Images/real_shematic.pdf) | Microstrip schematic (MLIN/MLOC elements) |
-| ![Microstrip S-parameters](Images/real_output.pdf) | S11/S33 result and Smith chart of the microstrip realization |
+| ![Microstrip schematic](Images/real_shematic.png) | Microstrip schematic (MLIN/MLOC elements) |
+| ![Microstrip S-parameters](Images/real_output.png) | S11/S33 result and Smith chart of the microstrip realization |
 
 ### Final Schematic with MTEE T-Junctions
 
 | Result | Description |
 | :---- | :---- |
-| ![Final schematic with MTEE](Images/final_shematic.pdf) | Final optimized schematic with MTEE T-junction components |
+| ![Final schematic with MTEE](Images/final_shematic.png) | Final optimized schematic with MTEE T-junction components |
 
 ### Momentum Full-Wave Simulation
 
@@ -109,8 +109,8 @@ The project follows a five-step design flow. Each step moves the design closer t
 | :---- | :---- |
 | ![2D layout](Images/momentom_chematic.png) | 2D view of the matching networks in the Layout environment |
 | ![3D PCB layout](Images/pcb.png) | 3D layout view of the combined input and output matching networks |
-| ![Momentum S-parameters](Images/momentom_s.pdf) | Momentum S-parameters magnitude result vs. frequency |
-| ![Momentum Smith chart](Images/momentom_smith_chart.pdf) | Momentum result on the Smith Chart |
+| ![Momentum S-parameters](Images/momentom_s.png) | Momentum S-parameters magnitude result vs. frequency |
+| ![Momentum Smith chart](Images/momentom_smith_chart.png) | Momentum result on the Smith Chart |
 
 *The full report (`Report/HW1_Sim__FW_ADS_4042.pdf`) contains all result plots and additional discussion.*
 
